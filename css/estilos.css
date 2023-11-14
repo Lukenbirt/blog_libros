@@ -1,0 +1,214 @@
+/*
+    Autor: Lucas Camarero
+    Fecha: 04/11/23"
+    Módulo: Lenguaje de marcas y sistemas de gestión de la información
+    Unidad: 2.- Desarrollo web con HTML5 y CSS3
+    Tarea: Tarea Evaluativa 2
+*/
+
+/*Importamos las fuentes de google*/
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@500&family=Kenia&family=Montserrat&family=Noto+Sans:wght@300&family=Poppins:ital,wght@0,300;1,200;1,500&display=swap');
+
+/*Elementos genéricos*/
+html {
+    font-size: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(#388185, #78c9ce);
+    font-family: Montserrat;
+}
+
+header {
+    position: relative;         /*Posicionamiento relativo requerido en ejercicio*/
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 70%;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+nav, footer {
+    width: 50%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+article {
+    background-color: rgba(240, 233, 193, .3);
+    padding: 2%;
+    border-radius: 5%;
+    margin: 2%;
+}
+
+aside {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'kenia';
+    color: rgb(200, 220, 238);
+    font-size: 5rem;
+    z-index: 1;
+    text-align: center;
+}
+
+h1::first-letter {               /*Elemento nuevo no visto en los apuntes*/
+    font-size: 6rem;
+}
+
+h2, h3 {
+    width: 100%;
+    text-align: center;
+}
+
+h6 {
+    width: 100%;
+    text-align: center;
+    font-size: .85rem;
+}
+
+a {
+    color: rgb(200, 220, 238);
+    font-size: 1.2rem;
+}
+
+img {
+    width: 220px;
+    height: auto;
+    border: 3px solid rgb(196, 168, 13);
+    margin: 2%;
+}
+
+/*Contenedor para las dos imagenes de las "reseñas"*/
+figure {                        /*Elemento nuevo no visto en los apuntes*/
+    margin-top: 1.5%;
+    text-align: center;
+}
+
+/*Clase para todos los elementos del footer*/
+.elemento-footer{
+    color: rgb(236, 240, 243);
+    font-size: 0.8rem;
+}
+
+/*Clase para el logo del header*/
+.logo {
+    width: 75px;
+    height: auto;
+    margin-right: 2%;
+    border: 0px;
+    z-index: 1;
+}
+
+/*Clase para dar ancho a los <article> de "inicio"*/
+.articulo-inicio {
+    width: 25%;
+    min-width:300px;
+}
+
+/*Clase para dar ancho a los <article> de reseñas concretas y genérica*/
+.articulo-resenas {
+    width: 40%;
+    min-width:300px;
+}
+
+/*Clase para la foto genérica de las páginas*/
+.foto{
+    width: 320px;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+
+
+/*Clase para dar ancho a los <article> de "noticias"*/
+.articulo-noticias {
+    width: 25%;
+    min-width: 300px;
+}
+
+/*Clase para los links externos de "noticias"*/
+.noticia {
+    color: rgb(8, 43, 73);
+    font-size: 1rem;
+}
+
+/*Clase para las fechas de "noticias"*/
+.fecha {
+    text-align: justify;
+    font-size: 0.9rem;
+    color: rgb(228, 241, 237);
+}
+
+/*Clase para las imagenes de redes sociales de "contacto"*/
+.redes {
+    width: 60px;
+    height: 40px;
+}
+
+/*Clase para separar las líneas del formulario de "contacto"*/
+.lineasform {
+    margin: 2%;
+}
+
+/*Clase para minimizar tamaño de letra de pies de fotos con derechos de autor*/
+.copyright {
+    font-size: 0.7rem;
+}
+
+/*Clase para el <h2> de los <figure> y las reseñas concretas*/
+.resena-foto {
+    font-size: 1.5rem;
+    background-color: rgb(196, 168, 13);
+    padding: 0%;
+    margin: 0%;
+}
+
+/*Id para el texto en posición absoluta de "index"*/
+#cita-absoluta {
+    position: absolute;      /*Posicionamiento absoluto requerido en ejercicio*/
+    top: 40px;
+    left: 55px;
+    font-family: 'kenia';
+    font-size: 1.5rem;
+    color: rgb(196, 168, 13);
+}
+
+/*Id para la imagen dentro del artículo de "index"*/
+#imagen-float {
+    float: left;            /*Posicionamiento float requerido en ejercicio*/
+    width: 130px;
+    margin: 0%;
+    margin-right: 4%;
+}
+
+/*Id para la autoría y copyright del footer*/
+#autoria {
+    width: 510px;
+}
+
+/*Id para el botón de "contacto"*/
+#boton {
+    display: block;
+    margin: 0 auto;
+}

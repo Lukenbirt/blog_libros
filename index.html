@@ -1,0 +1,89 @@
+<!--
+    Autor: Lucas Camarero
+    Fecha: 04/11/23"
+    Módulo: Lenguaje de marcas y sistemas de gestión de la información
+    Unidad: 2.- Desarrollo web con HTML5 y CSS3
+    Tarea: Tarea Evaluativa 2
+	Enlace web: https://lukenbirt.github.io/blog_libros/
+    Enlace a autoevaluación: 
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>CAFÉ CON LIBROS - Inicio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="descripcion" content="Blog de reseña de Libros (Inicio)">
+        <meta name="keywords" content="blog, libros, reseñas, Lucas Camarero">	
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+
+    <body>
+		<header>
+			<!-- cita en posición absoluta -->
+			<div id="cita-absoluta">
+				<p>"Más libros, más libres"</p>
+				<p>(Enrique Tierno Galván)</p>
+			</div>
+
+			<!-- logo -->
+			<img class="logo" src="./imagenes/logo.png" alt="imagen logo">
+
+			<!-- título -->
+			<h1>Café con Libros</h1>
+		</header>
+
+		<!-- menú de navegación -->
+		<nav>
+			<a href="./index.html" target="_self">Inicio</a>
+			<a href="./reseñas.html" target="_self">Reseñas</a>
+			<a href="./noticias.html" target="_self">Noticias</a>
+			<a href="./contacto.html" target="_self">Contacto</a>
+		</nav>
+		
+		<section>
+			<!-- foto genérica de libros -->
+			<img src="./imagenes/libros.jpg" alt="foto libros">
+
+			<!-- presentación de la web -->
+			<article class="articulo-inicio">
+				<!-- bienvenida y presentación -->
+				<h2>BIENVENIDA Y PRESENTACIÓN</h2>
+				<p>¡Bienvenida, bienvenido a Café con Libros!</p>
+				<p>Es este un blog en el que te tendré al tanto de las noticias más importantes del mundo editorial: nuevos lanzamientos, entrevistas a escritores...</p>
+				<p>También podrás encontrar reseñas de libros de tus autores y autoras preferidas, tanto de novela negra como histórica o romántica.
+					Trabajaremos el ensayo, aunque en menor medida.</p>
+				<p>Espero que disfrutes y te relajes leyendo los diferentes artículos con un café bien calentito. ¡Adelante!</p>
+			</article>
+
+			<!-- presentación personal -->
+			<article class="articulo-inicio">
+				<!-- saludo y presentación -->
+				<h2>QUIÉN SOY</h2>
+
+				<!-- foto personal -->
+				<img id="imagen-float" src="./imagenes/lucas.jpg" alt="foto personal">
+
+				<p>¡Hola! Me llamo Lucas Marero y me gustaría presentarme.</p>
+				<p>Soy librero, desde hace ya más de 15 años, y también estoy formado profesionalmente como programador, por lo que me decidí a elaborar esta web personalmente.</p>
+				<p>Mi pasión son los libros y la programación. Por eso te invito a que entres en mi web y leas mis reseñas. Además, me gustaría decirte que no hay ningún vínculo
+					con la librería donde trabajo. Aquí soy libre para poder expresar mi opinión sobre los libros que leo. Sin rendir cuentas al negocio, a las editoriales o a los 
+					autores. Completa libertad.</p>
+				<p>¿Te tomas un café conmigo?</p>
+			</article>
+		</section>
+
+		<footer>
+			<!-- autoría y copyright-->
+			<p id="autoria" class="elemento-footer">Café con libros, Lucas Camarero Pérez, CC0 1.0 Universal </p>
+
+			<!-- aviso legal -->
+			<a class="elemento-footer" href="./construccion.html" target="_self">Aviso legal</a>
+
+			<!-- política de cookies -->
+			<a class="elemento-footer" href="./construccion.html" target="_self">Política de Cookies</a>
+		</footer>
+    </body>   
+</html>

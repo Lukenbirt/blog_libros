@@ -1,0 +1,98 @@
+<!--
+    Autor: Lucas Camarero
+    Fecha: 04/11/23"
+    Módulo: Lenguaje de marcas y sistemas de gestión de la información
+    Unidad: 2.- Desarrollo web con HTML5 y CSS3
+    Tarea: Tarea Evaluativa 2
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>CAFÉ CON LIBROS - Noticias</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="descripcion" content="Blog de reseña de Libros (Noticias)">
+        <meta name="keywords" content="blog, libros, noticias, editoriales, Lucas Camarero">	
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+
+    <body>
+        <header>
+			<!-- logo -->
+			<img class="logo" src="./imagenes/logo.png" alt="foto logo">
+
+			<!-- título -->
+			<h1>Café con Libros</h1>
+		</header>
+
+		<!-- menú de navegación -->
+		<nav>
+			<a href="./index.html" target="_self">Inicio</a>
+			<a href="./reseñas.html" target="_self">Reseñas</a>
+			<a href="./noticias.html" target="_self">Noticias</a>
+			<a href="./contacto.html" target="_self">Contacto</a>
+		</nav>
+		
+		<section>
+			<!-- foto genérica de noticias -->
+            <figure class="copyright">  <!-- elemento nuevo no visto en los apuntes -->
+                <h2 class="resena-foto">N O T I C I A S</h2>
+			    <img class="foto" src="./imagenes/noticias.jpg" alt="imagen noticias">
+                <figcaption>Sin título, Sin autor, pxhere.com, CC0 Public Domain</figcaption>	<!-- elemento nuevo no visto en los apuntes -->
+            </figure>
+
+			<!-- noticias para lectores -->
+			<article class="articulo-noticias">
+				<h2>PARA LECTORES/AS</h2>
+				<article>
+                    <p class="fecha">7/11/2023<p>
+                    <p>Jean-Baptiste Andrea gana el premio Goncourt 2023 con una novela de amor ambientada en la Italia fascista</p>
+                    <a class="noticia" href="https://elpais.com/cultura/2023-11-07/jean-baptiste-andrea-gana-el-premio-goncourt-2023-con-una-novela-de-amor-ambientada-en-la-italia-fascista.html" target="_blank">Ampliar noticia</a>
+                </article>
+                <article>
+                    <p class="fecha">6/11/2023</p>
+                    <p>Fernando Aramburu: "El documental sobre Josu Ternera me parecía bien, no tanto las connotaciones"</p>
+                    <a class="noticia" href="https://www.europapress.es/cultura/libros-00132/noticia-fernando-aramburu-documental-josu-ternera-me-parecia-bien-no-tanto-connotaciones-20231106152203.html" target="_blank">Ampliar noticia</a>
+                </article>
+                <article>
+                    <p class="fecha">20/10/2023</p>
+                    <p>Presentación cubiertas de las novelas ganadora y finalista del Premio Planeta 2023</p>
+                    <a class="noticia" href="https://www.planetadelibros.com/blog/noticias/20/articulo/presentacion-cubiertas-de-las-novelas-ganadora-y-finalista-del-premio-planeta-2023" target="_blank">Ampliar noticia</a>
+                </article>
+			</article>
+
+			<!-- noticias para profesionales -->
+			<article class="articulo-noticias">
+				<h2>PARA PROFESIONALES</h2>
+				<article>
+                    <p class="fecha">27/09/2023</p>
+                    <p>Liber 2023 retrata al sector editorial en España</p>
+                    <a class="noticia" href="https://www.abc.es/cultura/liber-2023-retrata-sector-editorial-espana-crecimiento-20230926140942-nt.html" target="_blank">Ampliar noticia</a>
+                </article>
+                <article>
+                    <p class="fecha">18/07/2023</p>
+                    <p>Análisis del Mercado del Libro en España 2022</p>
+                    <a class="noticia" href="https://editoresmadrid.org/analisis-del-mercado-del-libro-en-espana-2022-el-sector-editorial-mantiene-el-ritmo-de-crecimiento-y-acumula-una-decada-de-subidas/" target="_blank">Ampliar noticia</a>
+                </article>
+                <article>
+                    <p class="fecha">13/06/2023</p>
+                    <p>XVII informe de la edición en euskera (2021)</p>
+                    <a class="noticia" href="https://www.euskadi.eus/2023/xvii-informe-de-la-edicion-en-euskera-2021/web01-a3kebarg/eu/" target="_blank">Ampliar noticia</a>
+                </article>
+			</article>
+		</section>
+
+		<footer>
+			<!-- autoría y copyright-->
+			<p id="autoria" class="elemento-footer">Café con libros, Lucas Camarero Pérez, CC0 1.0 Universal</p>
+
+			<!-- aviso legal -->
+			<a class="elemento-footer" href="./construccion.html" target="_self">Aviso legal</a>
+
+			<!-- política de cookies -->
+			<a class="elemento-footer" href="./construccion.html" target="_self">Política de Cookies</a>
+		</footer>
+    </body>   
+</html>

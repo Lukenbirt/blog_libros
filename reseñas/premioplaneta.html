@@ -1,0 +1,77 @@
+<!--
+    Autor: Lucas Camarero
+    Fecha: 04/11/23"
+    Módulo: Lenguaje de marcas y sistemas de gestión de la información
+    Unidad: 2.- Desarrollo web con HTML5 y CSS3
+    Tarea: Tarea Evaluativa 2
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>CAFÉ CON LIBROS - Premio Planeta</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="descripcion" content="Blog de reseña de Libros (Premio Planeta)">
+		<meta name="keywords" content="blog, libros, premio planeta, Lucas Camarero">
+        <link rel="stylesheet" href="../css/estilos.css">
+    </head>
+
+    <body>
+        <header>
+			<!-- logo -->
+			<img class="logo" src="../imagenes/logo.png" alt="foto logo">
+
+			<!-- título -->
+			<h1>Café con Libros</h1>
+		</header>
+
+		<!-- menú de navegación -->
+		<nav>
+			<a href="../index.html" target="_self">Inicio</a>
+			<a href="../reseñas.html" target="_self">Reseñas</a>
+			<a href="../noticias.html" target="_self">Noticias</a>
+			<a href="../contacto.html" target="_self">Contacto</a>
+		</nav>
+		
+		<section>
+			<!-- imagenes -->
+			<figure>	<!-- elemento nuevo no visto en los apuntes -->
+				<!-- imagen libro -->
+				<img src="../imagenes/imagenesreseñas/premioplaneta.jpg" alt="imagen portada">
+
+				<!-- imagen autora -->
+				<img src="../imagenes/imagenesreseñas/sonsolesonega.jpg" alt="imagen autor">
+			</figure>
+
+			<article class="articulo-resenas">
+				<!-- reseña del libro -->
+				<h2 class="resena-foto">LAS HIJAS DE LA CRIADA</h2>
+				<h3>Sonsoles Ónega</h3>
+				<h5>Crítica:</h5>
+				<p>Las hijas de la criada es una historia mágica y realista al mismo tiempo, en una Galicia extraordinaria, sobre hombres y mujeres que se 
+					rebelan contra su propio destino en busca de la verdad.</p>
+				<h5>Sinopsis:</h5>
+				<p>Una noche de febrero de 1900, recien estrenado el siglo XX, en el pazo de Espíritu Santo llegan al mundo dos niñas, Clara y Catalina, 
+					cuyos destinos ya estaban escritos. Sin embargo, una venganza inesperada sacudirá para siempre sus vidas y las de todos los Valdés.</p>
+				<p>Doña Inés, matriarca de la saga y fiel esposa de Don Gustavo deberá sobrevivir al desamor, al dolor del abandono y a las luchas de poder 
+					hasta convertir a su verdadera hija en heredera de todo un imperio, en una época en la que a las mujeres no se les permitía ser dueñas de sus vidas.</p>
+				<h6>Fecha de publicación: noviembre de 2023</h6>
+				<h6>Editorial: Planeta</h6>
+				<h6>Género: novela</h6>
+			</article>
+		</section>
+
+		<footer>
+			<!-- autoría y copyright-->
+			<p id="autoria" class="elemento-footer">Café con libros, Lucas Camarero Pérez, CC0 1.0 Universal</p>
+
+			<!-- aviso legal -->
+			<a class="elemento-footer" href="../construccion.html" target="_self">Aviso legal</a>
+
+			<!-- política de cookies -->
+			<a class="elemento-footer" href="../construccion.html" target="_self">Política de Cookies</a>
+		</footer>
+    </body>   
+</html>
